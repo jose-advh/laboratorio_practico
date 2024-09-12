@@ -34,7 +34,7 @@ body {
     padding: 20px 30px;
     position: relative;
     z-index: 99;
-    opacity: .60;
+    opacity: 0.6;
 }
 
 .contenedor.header {
@@ -66,7 +66,7 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     border-bottom: 1px solid transparent;
-    transition: .5s ease;
+    transition: 0.5s ease;
 }
 
 .barra-navegacion a:hover {
@@ -106,7 +106,7 @@ body {
     color: #3db1ff;
     border: 1px solid #555555;
     animation: parpadeo 2s linear infinite;
-    transition: .7s ease;
+    transition: 0.7s ease;
 }
 
 .contenido-descripcion .btn-link:hover {
@@ -124,7 +124,7 @@ body {
     padding: 20px 30px;
     position: relative;
     z-index: 99;
-    opacity: .60;
+    opacity: 0.6;
 }
 
 .contenido-secundario {
@@ -177,7 +177,7 @@ body {
     padding: 20px 30px;
     position: relative;
     z-index: 99;
-    opacity: .60;
+    opacity: 0.6;
     height: calc(100vh - 55px);
     border: 3px solid #555555;
 }
@@ -205,4 +205,40 @@ body {
     border: #3db1ff solid 2px;
     font-size: 10px;
     overflow: hidden;
+}
+
+.caja-3 {
+    overflow: hidden;
+    /*margin: auto;*/
+    background-image: url(../img/imcaja3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#raPCI1 {
+    width: 4%;
+    height: 37%;
+    /*outline: 1px solid white;*/
+    position: absolute;
+    left: 7%;
+    top: 22%;
+}
+
+#raPCI2 {
+    width: 4%;
+    height: 37%;
+    /*outline: 1px solid white;*/
+    position: absolute;
+    left: 15.2%;
+    top: 22%;
+}
+
+#raPCI3 {
+    width: 4%;
+    height: 37%;
+    /*outline: 1px solid white;*/
+    position: absolute;
+    left: 23%;
+    top: 22%;
 }
