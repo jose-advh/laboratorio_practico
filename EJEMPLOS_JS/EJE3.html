@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML>
+<HEAD>
+<TITLE>Manual practico de JavaScript - Js14a</TITLE>
+<SCRIPT LANGUAGE=JavaScript>
+<!-- oculta codigo
+var txt="Este es un texto que se desplaza de forma "
+ + "igual que el MARQUEE del Explorer...!                                  ";
+
+function scroll() {
+  document.frm.w.value = txt;
+  txt = txt.substring(1, txt.length) + txt.charAt(0);
+  window.setTimeout("scroll()",150);
+}
+// fin oculta -->
+</SCRIPT>
+<LINK REL=stylesheet HREF=hoja.css TYPE=text/css>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<style type="text/css">
+<!--
+body,td,th {
+	font-size: 14pt;
+}
+-->
+</style></HEAD>
+
+<BODY onLoad="scroll();">
+<H1>Scroll dentro de una venta a izquierda</H1>
+Dentro del comando &lt;BODY&gt; se debe añadir el parametro: <B>onLoad="scroll();"</B><P>
+
+Luego en el formulario añadir:<BR> 
+<DIR>
+<TABLE BORDER=0 BGCOLOR=FFFFCC>
+<TR><TD>
+&lt;FORM NAME='frm'&gt;<BR>
+<DIR>&lt;INPUT TYPE='text' NAME='w' SIZE=64&gt;<BR></DIR>
+&lt;/FORM&gt;
+</TABLE>
+</DIR>
+
+Como la ventana esta situada dentro de la pagina, podemos colocar estos
+comandos en el sitio que nos convenga, dentro del cuerpo del documento.<P>
+
+Este es el resultado.<P>
+<CENTER>
+<FORM NAME='frm'>
+<INPUT TYPE='text' NAME='w' SIZE=64>
+</FORM>
+<P>
+
+<HR COLOR=red>
+<CENTER>
+Manual practico de JavaScript v1.3<BR>
+Enrique Garrido-Lecca Risco<BR>
+Universidad ALAS Peruanas S.A.<BR>
+
+<SCRIPT LANGUAGE=JavaScript>
+<!-- esconder codigo
+document.write("Ultima modificación: "+document.lastModified);
+// fin esconder -->
+</SCRIPT>
+
+<HR COLOR=blue>
+</BODY>
+</HTML>
+

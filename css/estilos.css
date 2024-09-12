@@ -1,0 +1,208 @@
+/* ESTILOS GENERALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    background-size: cover;
+    background-image: url('../img/bg-header4.png');
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 20px 30px;
+    position: relative;
+    z-index: 99;
+    opacity: .60;
+}
+
+.contenedor.header {
+    height: calc(100vh - 55px);
+    border: 3px solid #555555;
+}
+
+.barra-navegacion ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-navegacion li {
+    list-style: none;
+    display: inline-block;
+}
+
+.barra-navegacion .logo {
+    color: #3584df;
+    font-size: 50px;
+}
+
+.barra-navegacion a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .5s ease;
+}
+
+.barra-navegacion a:hover {
+    color: #ffffff;
+    border-bottom: 1px solid currentcolor;
+}
+
+.contenido-descripcion {
+    width: 60%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.contenido-descripcion .titulo {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.contenido-descripcion .titulo span:first-child {
+    font-size: 50px;
+    display: block;
+    font-weight: 300;
+}
+
+.contenido-descripcion .titulo span:last-child {
+    font-weight: 900;
+    font-size: 100px;
+}
+
+.contenido-descripcion .btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 25px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3db1ff;
+    border: 1px solid #555555;
+    animation: parpadeo 2s linear infinite;
+    transition: .7s ease;
+}
+
+.contenido-descripcion .btn-link:hover {
+    border: 1px solid #3584df;
+    animation: none;
+}
+
+.contenido-principal {
+    width: 90%;
+    max-width: 1200px;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 20px 30px;
+    position: relative;
+    z-index: 99;
+    opacity: .60;
+}
+
+.contenido-secundario {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cajas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../img/bg-header4.png');
+    background-size: cover;
+}
+
+.caja-1 {
+    width: 45%;
+    color: #ffffffbe;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    vertical-align: top;
+    height: calc(100vh - 55px);
+    border: 3px solid #555555;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.caja-2 {
+    width: 45%;
+    color: #ffffffbe;
+    padding: 20px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    justify-content: space-between;
+    height: calc(100vh - 55px);
+    border: 3px solid #555555;
+}
+
+.caja-3 {
+    width: 90%;
+    max-width: 1200px;
+    background-size: cover;
+    background-image: url('../img/bg-header4.png');
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 20px 30px;
+    position: relative;
+    z-index: 99;
+    opacity: .60;
+    height: calc(100vh - 55px);
+    border: 3px solid #555555;
+}
+
+.carrusel {
+    border: 2px solid crimson;
+    width: 100%;
+    height: 26%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imagen {
+    width: 40%;
+    height: 100%;
+    border: #3db1ff solid 2px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.text {
+    width: 50%;
+    height: 100%;
+    border: #3db1ff solid 2px;
+    font-size: 10px;
+    overflow: hidden;
+}
