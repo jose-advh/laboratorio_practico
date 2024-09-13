@@ -245,6 +245,7 @@ body {
     top: 22%;
 }
 
+<<<<<<< HEAD
 
 /* Deportes Page */
 
@@ -282,4 +283,155 @@ body {
 
 .items_recuerdo {
     text-align: center;
+=======
+#raRam1 {
+    width: 59%;
+    height: 3%;
+    position: absolute;
+    right: 6%;
+    bottom: 20.5%;
+    /*outline: 1px solid white;*/
+}
+
+#raRam2 {
+    width: 59%;
+    height: 3%;
+    position: absolute;
+    right: 6%;
+    bottom: 16.5%;
+    /*outline: 1px solid white;*/
+}
+
+#batCMOS {
+    width: 8.5%;
+    height: 10%;
+    position: absolute;
+    bottom: 23.5%;
+    left: 3.5%;
+    border-radius: 80%;
+    /*outline: 1px solid white;*/
+}
+
+#ranAGP {
+    /*outline: 1px solid white;*/
+    position: absolute;
+    width: 4%;
+    height: 40%;
+    left: 31%;
+    top: 32%;
+}
+
+#procesador {
+    /*outline: 1px solid white;*/
+    position: absolute;
+    width: 19.8%;
+    height: 21%;
+    right: 11%;
+    top: 38.5%;
+}
+
+#northbridge {
+    /*outline: 1px solid white;*/
+    position: absolute;
+    width: 14.5%;
+    height: 17%;
+    top: 49%;
+    left: 46%;
+}
+
+#southbridge {
+    /*outline: 1px solid white;*/
+    position: absolute;
+    width: 8.5%;
+    height: 9.5%;
+    left: 11.5%;
+    bottom: 14%;
+    border-radius: 8px;
+}
+
+#conIde1 {
+    /*outline: 1px solid white;*/
+    position: absolute;
+    width: 23.4%;
+    height: 4%;
+    bottom: 6%;
+    left: 34.2%;
+}
+
+#conIde2 {
+    /*outline: 1px solid white;*/
+    position: absolute;
+    width: 23.1%;
+    height: 3.8%;
+    bottom: 1.2%;
+    left: 34.2%;
+}
+
+#bios {
+    /*outline: 1px solid white;*/
+    position: absolute;
+    width: 5%;
+    height: 8.2%;
+    bottom: 5%;
+    right: 5.5%;
+}
+
+#puertoParale {
+    /*outline: 1px solid white;*/
+    position: absolute;
+    width: 20%;
+    height: 11%;
+    top: 1%;
+    right: 22%;
+}
+
+#puertUSB1 {
+    /*outline: 1px solid white;*/
+    position: absolute;
+    width: 5%;
+    height: 8%;
+    border-bottom-right-radius: 34%;
+    top: 5%;
+    right: 11.5%;
+}
+
+#conectPerif1 {
+    /*outline: 1px solid white;*/
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    top: 3%;
+    left: 36.5%;
+}
+
+#conectPerif2 {
+    /*outline: 1px solid white;*/
+    position: absolute;
+    width: 7.5%;
+    height: 12%;
+    top: 3%;
+    left: 43%;
+    border-top-right-radius: 38%;
+    border-bottom-left-radius: 38%;
+}
+
+#conectPerif3 {
+    /*outline: 1px solid white;*/
+    position: absolute;
+    width: 6%;
+    height: 11%;
+    top: 2%;
+    right: 3.5%;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 16px;
+}
+
+#conectAlim {
+    /*outline: 1px solid white;*/
+    position: absolute;
+    width: 17.5%;
+    height: 4%;
+    top: 21.5%;
+    right: 8%;
+>>>>>>> d02f7c4ca740ae95f1f6b13072a5b4d2881515b1
 }
