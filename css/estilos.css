@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
@@ -157,7 +159,7 @@ body {
     width: 45%;
     color: #ffffffbe;
     padding: 20px;
-    overflow: hidden;
+    overflow-y: auto;
     display: inline-block;
     vertical-align: top;
     justify-content: space-between;
@@ -241,4 +243,43 @@ body {
     position: absolute;
     left: 23%;
     top: 22%;
+}
+
+
+/* Deportes Page */
+
+
+
+.body {
+    background-size: cover;
+    background-image: url('../img/bg-header4.png');
+    background-position: center;
+}
+
+.nav_lista li {
+    padding: .5rem 1rem;
+}
+
+.nav_lista li a {
+    color: white;
+    font-size: large;
+}
+
+.section_article {
+    gap: 1rem;
+}
+
+/* RECUERDOS */
+
+.items_recuerdo img {
+    width: 188px;
+    height: 188px;
+}
+
+.items_recuerdo {
+    padding: 15px;
+}
+
+.items_recuerdo {
+    text-align: center;
 }

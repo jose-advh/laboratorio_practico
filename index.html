@@ -24,11 +24,11 @@
             <!-- Barra de navegación -->
             <nav class="barra-navegacion">
                 <ul>
-                    <li><a href="#">Deportes</a></li>
-                    <li><a href="#">Cambios Sociales</a></li>
-                    <li><a href="#">Salud</a></li>
-                    <li><a href="#">Preferencias Sociales</a></li>
-                    <li><a href="#">Cultura</a></li>
+                    <li><a href="pages/deportes.html">Deportes</a></li>
+                    <li><a href="pages/csociales.html">Cambios Sociales</a></li>
+                    <li><a href="pages/salud.html">Salud</a></li>
+                    <li><a href="pages/preferenciass.html">Preferencias Sociales</a></li>
+                    <li><a href="pages/cultura.html">Cultura</a></li>
                 </ul>
             </nav>
 
@@ -46,15 +46,15 @@
                             negro, a equipos moviles de gran resolución, que permiten un nivel de comunicación y
                             conexión en tiempo real.
                         </p>
-                        <a href="#" class="btn-link">Recuerdos </a>
+                        <a href="pages/recuerdos.html" class="btn-link">Recuerdos </a>
                     </article>
                 </div>
             </div>
         </header>
-        <!-- Contenido principal -->
-        <section class="contenido-principal">
-            <div class="cajas">
-                <div class="caja-1 w-75 m-auto">
+
+        <section class="contenido-secundario p-5" id="recuerdos">
+            <div class="caja-2">
+                <div class="w-75 m-auto">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -62,23 +62,33 @@
                             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                         </ol>
                         <div class="carousel-inner">
-                            <h2 class="text-center" style="color: blue">Aparatos Electronicos</h2>
+                            <h2 class="text-center py-3" style="color: blue">Aparatos Electronicos</h2>
                             <div class="carousel-item active">
                                 <h3 class="text-center">Telefono</h3>
 
                                 <img class="d-block w-75 m-auto" src="img/telefono.jpg" alt="Imagen telefono antiguo" />
+
+                                <p class="py-4">
+                                    modelo antiguo de disco giratorio, característico de mediados del siglo XX. Este tipo de teléfono se usaba antes de la era de los teléfonos digitales y celulares.
+                                </p>
                             </div>
                             <div class="carousel-item">
                                 <h2 class="text-center">Telegrafo</h2>
                                 <img
-                                    class="d-block w-75 m-auto"
+                                    class="d-block w-50 m-auto"
                                     src="img/telegrafo.jpeg"
                                     alt="Imagen de un telegrafo"
                                 />
+                                <p class="py-4">
+                                    El telégrafo es un dispositivo antiguo utilizado para enviar mensajes a largas distancias mediante señales codificadas, generalmente en forma de pulsos eléctricos. Inventado en el siglo XIX, el sistema más comúnmente utilizado fue el Código Morse.
+                                </p>
                             </div>
                             <div class="carousel-item">
                                 <h2 class="text-center">Televisor blanco y negro</h2>
-                                <img class="d-block w-75 m-auto" src="img/blanco_negro.jpg" alt="Imagen tv antigua" />
+                                <img class="d-block w-50 m-auto" src="img/blanco_negro.jpg" alt="Imagen tv antigua" />
+                                <p class="py-4">
+                                    El televisor en blanco y negro fue uno de los primeros dispositivos de entretenimiento masivo en el hogar, introducido a mediados del siglo XX. Antes de la llegada de la televisión a color.
+                                </p>
                             </div>
                         </div>
                         <a
@@ -102,11 +112,36 @@
                     </div>
                 </div>
             </div>
-        </section>
+            <div class="caja-2">
+                <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+                    <a class="navbar-brand" href="#">Aparatos de Comunicación</a>
+                    <ul class="nav nav-pills">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">Principal</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">Secundario</a>
+                    </ul>
+                  </nav>
+                  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                    <h4 id="scrollspyHeading1">Telégrafo (1830s)</h4>
+                    <p>
+                        El telégrafo fue uno de los primeros inventos que revolucionó la comunicación a larga distancia. Permitió enviar mensajes a través de códigos Morse usando señales eléctricas, reduciendo drásticamente el tiempo de comunicación entre lugares lejanos.
 
-        <section class="contenido-secundario px-5">
-            <div class="caja-2"></div>
-            <div class="caja-2"></div>
+                        <strong>Avances</strong>: Desde el telégrafo hasta los mensajes de texto, la evolución ha transformado la velocidad y la facilidad de las comunicaciones.
+                    </p>
+                    <h4 id="scrollspyHeading2">Teléfono (1876)</h4>
+                    <p>
+                        Inventado por Alexander Graham Bell, el teléfono permitía la transmisión de la voz a través de cables eléctricos, conectando a las personas de una forma mucho más directa y personal que el telégrafo.
+
+                        <strong>Avances</strong>: Desde los teléfonos de línea fija, hasta los teléfonos móviles y los actuales smartphones, la comunicación ha evolucionado a pasos gigantescos.
+                    </p>
+                    <h4 id="scrollspyHeading3">Smartphones (2000s)</h4>
+                    <p>
+                        Los teléfonos inteligentes han fusionado la capacidad de un teléfono con la funcionalidad de una computadora. Ofrecen conectividad a internet, cámara, aplicaciones y más, convirtiéndose en una herramienta imprescindible en la vida moderna.
+                    </p>
+                  </div>
+            </div>
         </section>
 
         <div class="caja-3">
